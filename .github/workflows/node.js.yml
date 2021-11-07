@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: cd src
-    - run: node index.js
+    - run: node cluster.js
